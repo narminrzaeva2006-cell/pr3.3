@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш любимый кофе</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- ШАПКА С ЛОГОТИПОМ И НАВИГАЦИЕЙ -->
+    <header class="header"> 
+        <div class="header__logo-container">
+            <img src="LOGO.png" alt="revo coffee" class="header__logo-img">
+        </div> 
+        <nav class="header__nav nav"> 
+            <ul class="nav__list"> 
+                <li class="nav__item nav__item--active"> 
+                    <a class="nav__link" href="#home">Главная страница</a> 
+                </li> 
+                <li class="nav__item"> 
+                    <a class="nav__link" href="#sorts">Наши виды</a> 
+                </li> 
+                <li class="nav__item"> 
+                    <a class="nav__link" href="#popular">Популярные</a> 
+                </li> 
+                <li class="nav__item"> 
+                    <a class="nav__link" href="#gifts">Подарки</a> 
+                </li> 
+                <li class="nav__item"> 
+                    <a class="nav__link" href="#coffee-types">Новинки</a> 
+                </li> 
+            </ul> 
+        </nav>
+    </header> 
+ 
+    <main>
+        <!-- СЕКЦИЯ С БОЛЬШИМ БАННЕРОМ -->
+        <section class="hero" id="home">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Кофе с историей</h1>
+                    <p class="hero__text">ВАШ ИДЕАЛЬНЫЙ НАПИТОК<br>ДЛЯ БОДРОГО СТАРТА</p>
+                    <div class="hero__buttons">
+                        <a href="#" class="hero__btn hero__btn--primary">КУПИТЬ</a>
+                        <a href="#" class="hero__btn hero__btn--secondary">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+                <div class="hero__banner">
+                    <img src="Баннер.png" alt="REV MOI NHIN EVERYDAY" class="hero__banner-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ "НАШИ ВИДЫ КОФЕ" -->
+        <section class="sorts" id="sorts">
+            <h2 class="sorts__title">НАШИ ВИДЫ КОФЕ</h2>
+            
+            <div class="sorts__grid">
+                <!-- НАЙТИ НАС ЛЕГКО -->
+                <div class="sort-card"> 
+                    <img src="mag.png" alt="5" class="sort-card__image">
+                    <h3 class="sort-card__title">НАЙТИ НАС ЛЕГКО</h3> 
+                    <p class="sort-card__desc">В центре города и в спальных районах — более 20 точек, где вас ждет любимый напиток. При первом визите — скидка 15%.</p>
+                    <div class="sort-card__actions">
+                        <a href="#" class="sort-card__btn">КУПИТЬ</a>
+                        <a href="#" class="sort-card__link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+
+                <!-- ОТ ЗЕРНА ДО ЧАШКИ -->
+                <div class="sort-card"> 
+                    <img src="beans.png" alt="5" class="sort-card__image">
+                    <h3 class="sort-card__title">ОТ ЗЕРНА ДО ЧАШКИ</h3> 
+                    <p class="sort-card__desc">Мы лично отбираем зеленые зерна в странах произрастания и контролируем обжарку, чтобы вы пили кофе высшего качества.</p>
+                    <div class="sort-card__actions">
+                        <a href="#" class="sort-card__btn">КУПИТЬ</a>
+                        <a href="#" class="sort-card__link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+
+                <!-- КЛАССИЧЕСКИЕ СОРТА -->
+                <div class="sort-card"> 
+                    <img src="beans_ pack.png" alt="5" class="sort-card__image">
+                    <h3 class="sort-card__title">КЛАССИЧЕСКИЕ СОРТА</h3> 
+                    <p class="sort-card__desc">Проверенная классика с мягким вкусом и шоколадными нотками. Подходит для приготовления в турке и кофемашине.</p>
+                    <div class="sort-card__actions">
+                        <a href="#" class="sort-card__btn">КУПИТЬ</a>
+                        <a href="#" class="sort-card__link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+
+                <!-- КОФЕ ДЛЯ АВТОМАТОВ -->
+                <div class="sort-card"> 
+                    <img src="mash.png" alt="5" class="sort-card__image">
+                    <h3 class="sort-card__title">КОФЕ ДЛЯ АВТОМАТОВ</h3> 
+                    <p class="sort-card__desc">Специальный помол, который идеально подходит для офисных и домашних кофейных автоматов. Без горечи, с приятным послевкусием.</p>
+                    <div class="sort-card__actions">
+                        <a href="#" class="sort-card__btn">КУПИТЬ</a>
+                        <a href="#" class="sort-card__link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+               <!-- СЕКЦИЯ "ХИТЫ ПРОДАЖ" -->
+        <section class="popular" id="popular">
+            <h2 class="popular__title">Хиты продаж</h2>
+            
+            <div class="popular__grid">
+                <!-- Revo Крепкий -->
+                <div class="popular-card"> 
+                    <img src="coff_blue.png" alt="Revo Крепкий" class="popular-card__image">
+                    <h3 class="popular-card__title">Revo Крепкий</h3> 
+                    <p class="popular-card__desc">Насыщенный, бодрящий, с горьковатым послевкусием</p>
+                    <span class="popular-card__price">420 ₽</span>
+                    <div class="popular-card__actions">
+                        <a href="#" class="popular-card__btn">КУПИТЬ</a>
+                        <a href="#" class="popular-card__link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+
+                <!-- Revo Классика -->
+                <div class="popular-card"> 
+                    <img src="coff_brown.png" alt="Revo Классика" class="popular-card__image">
+                    <h3 class="popular-card__title">Revo Классика</h3> 
+                    <p class="popular-card__desc">Мягкий вкус, сбалансированный, с шоколадным оттенком</p>
+                    <span class="popular-card__price">380 ₽</span>
+                    <div class="popular-card__actions">
+                        <a href="#" class="popular-card__btn">КУПИТЬ</a>
+                        <a href="#" class="popular-card__link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+
+                <!-- Revo Медовый -->
+                <div class="popular-card"> 
+                    <img src="coff_read.png" alt="Revo Медовый" class="popular-card__image">
+                    <h3 class="popular-card__title">Revo Медовый</h3> 
+                    <p class="popular-card__desc">Нежный, сладковатый, с легкой кислинкой и медовым ароматом</p>
+                    <span class="popular-card__price">520 ₽</span>
+                    <div class="popular-card__actions">
+                        <a href="#" class="popular-card__btn">КУПИТЬ</a>
+                        <a href="#" class="popular-card__link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- СЕКЦИЯ "ПОДАРКИ" -->
+        <section class="gifts" id="gifts">
+            <h2 class="gifts__title">ПОДАРКИ</h2>
+            
+            <div class="gifts__container">
+                <div class="gift-card-simple"> 
+                    <img src="revo_coff.png" alt="Подарочный кофе" class="gift-card-simple__image">
+                    <h3 class="gift-card-simple__title">Тропический берег</h3>
+                    <p class="gift-card-simple__desc">Мягкий вкус с нотками ванили и цитрусов. В подарочной упаковке.</p>
+                    <div class="gift-card-simple__actions">
+                        <a href="#" class="gift-card-simple__btn">КУПИТЬ</a>
+                        <a href="#" class="gift-card-simple__link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- НОВИНКИ -->
+        <section class="coffee-types" id="coffee-types">
+            <h2 class="coffee-types__title">НОВИНКИ</h2>
+
+            <div class="coffee-types__grid">
+                <!-- Медовый капучино -->
+                <div class="coffee-card"> 
+                    <img src="w_coff_blue.png" alt="Медовый капучино" class="coffee-card__image">
+                    <h3 class="coffee-card__title">Медовый капучино</h3> 
+                    <p class="coffee-card__desc">Нежный, с медовой сладостью и мягким сливочным вкусом</p>
+                    <span class="coffee-card__price">530 ₽</span>
+                    <div class="coffee-card__actions">
+                        <a href="#" class="coffee-card__btn">КУПИТЬ</a>
+                        <a href="#" class="coffee-card__link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+
+                <!-- Шоколадный раф -->
+                <div class="coffee-card"> 
+                    <img src="w_coff_brown.png" alt="Шоколадный раф" class="coffee-card__image">
+                    <h3 class="coffee-card__title">Шоколадный раф</h3> 
+                    <p class="coffee-card__desc">Насыщенный, с глубоким шоколадным вкусом и бархатистой текстурой</p>
+                    <span class="coffee-card__price">490 ₽</span>
+                    <div class="coffee-card__actions">
+                        <a href="#" class="coffee-card__btn">КУПИТЬ</a>
+                        <a href="#" class="coffee-card__link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+
+                <!-- Кленовый латте с корицей  -->
+                <div class="coffee-card"> 
+                    <img src="w_coff_yellow.png" alt="Кленовый латте с корицей" class="coffee-card__image">
+                    <h3 class="coffee-card__title">Кленовый латте с корицей</h3> 
+                    <p class="coffee-card__desc">Сладковатый, с пряными нотками и уютным осенним ароматом</p>
+                    <span class="coffee-card__price">550 ₽</span>
+                    <div class="coffee-card__actions">
+                        <a href="#" class="coffee-card__btn">КУПИТЬ</a>
+                        <a href="#" class="coffee-card__link">ПОДРОБНЕЕ</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">© 2025 revo. Все права защищены.</p>
+    </footer>
+</body>
+</html>
